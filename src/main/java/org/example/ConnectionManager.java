@@ -33,6 +33,10 @@ public class ConnectionManager {
             throw new IllegalStateException(e);
         }
     }
+
+    public static DataSource getDataSource() {
+        return ds;
+    }
 }
 
 
